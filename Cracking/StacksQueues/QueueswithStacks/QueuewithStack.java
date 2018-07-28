@@ -36,7 +36,7 @@ public class QueuewithStack<T>{
 	
 	public T dequeue()
 	{	
-		//return recently inserted element in the s1
+		//return oldest inserted element in the s1
 		if(top > 0)
 		{ 
 			top--;
